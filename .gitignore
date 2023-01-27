@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+!.gitattributes
+!.gitignore
+/.idea/**/*.xml
+/.idea/**/*.iml
+/.idea/.name
+!/.idea/scopes/*
+!/.idea/codeStyles/codeStyleConfig.xml
+!/.idea/codeStyles/Project.xml
+!/.idea/codeStyleSettings.xml
+!/.idea/encodings.xml
+!/.idea/frameworkRootSettings.xml
+!/.idea/php.xml
+!/.idea/vcs.xml
+!/.idea/watcherTasks.xml
+/node_modules/**
+/.nuxt/**
+config/server.development.js
+/package-lock.json
+/logs/app.log
