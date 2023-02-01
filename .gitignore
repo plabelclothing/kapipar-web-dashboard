@@ -1,0 +1,27 @@
+!.gitignore
+!.gitattributes
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/dataSources
+.idea/dictionaries
+!.idea/.name
+.idea/\[zen\] zen-rabbit-consumer-report-csv.iml
+.idea/dbnavigator.xml
+.idea/deployment.xml
+!.idea/encodings.xml
+!.idea/jsLibraryMappings.xml
+!.idea/misc.xml
+!.idea/modules.xml
+.idea/php.xml
+.idea/phpRuntime.xml
+!.idea/vcs.xml
+logs/*
+.next/*
+!logs/.gitignore
+!.idea/webResources.xml
+.idea/workspace.xml
+.idea/yii2settings.xml
+config/server.development.js
+node_modules/**
+package-lock.json
+temp/**
