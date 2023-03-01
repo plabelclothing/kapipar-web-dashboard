@@ -1,0 +1,230 @@
+@import url(../../styles/global.css);
+
+/* reused styles */
+
+.about-works_title {
+  margin: 0 0 25px;
+  font-size: 25px;
+  line-height: 32.5px;
+  color: #000;
+}
+
+.about-works_subtitle {
+  margin: 0 0 25px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.about-works_description {
+  margin: 0;
+}
+
+.main-background {
+  position: absolute;
+  top: 18px;
+  z-index: 0;
+}
+
+.header {
+  position: relative;
+  z-index: 5;
+}
+
+/* main styles */
+
+.main {
+  position: relative;
+  margin: 122px 230px 150px;
+  z-index: 5;
+}
+
+.how-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px 0;
+}
+
+.how-works_title {
+  margin: 0 0 25px;
+}
+
+.how-works_description {
+  margin: 0 0 25px;
+  text-align: center;
+}
+
+/* sing-up styles */
+
+.sing-up_wrapper {
+  display: flex;
+  margin-top: 100px;
+}
+
+.sing-up {
+  max-width: 505px;
+  margin-left: 163px;
+}
+
+/* shop-in styles */
+
+.shop-in_wrapper {
+  display: flex;
+  margin: 50px 0 0;
+}
+
+.shop-in {
+  max-width: 535px;
+  margin: 10px 117px 10px 0;
+}
+
+/* sending styles */
+
+.sending-wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+
+.sending {
+  max-width: 535px;
+  margin-left: 78px;
+}
+
+/* mobile view */
+
+@media screen and (max-width: 1279px) {
+  .main {
+    margin: 60px 30px 80px;
+  }
+
+  .sing-up_wrapper {
+    justify-content: center;
+  }
+
+  .sing-up {
+    max-width: 408px;
+  }
+
+  .shop-in_wrapper {
+    justify-content: center;
+  }
+
+  .shop-in {
+    max-width: 408px;
+  }
+
+  .sending-wrapper {
+    justify-content: center;
+  }
+
+  .sending {
+    max-width: 408px;
+  }
+}
+
+@media screen and (max-width: 819px) {
+  .wrapper {
+    width: auto;
+  }
+
+  .header {
+    padding: 16px 16px 16px 21px;
+    margin: 0;
+  }
+
+  .menu-body {
+    z-index: 5;
+  }
+
+  .main-background {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    object-fit:cover;
+    transform: translate(0%,12%);
+  }
+
+  .main {
+    margin: 20px 20px 70px;
+    z-index: 2;
+  }
+
+  .how-works {
+    margin: 0;
+  }
+
+  .how-works_title {
+    margin: 0 0 20px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .how-works_description {
+    margin: 0 0 20px;
+    font-size: 9px;
+    line-height: 12.6px;
+  }
+
+  .sing-up_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+  }
+
+  .sing-up {
+    margin: 0;
+  }
+
+  .sing-up_image {
+    display: inline-block;
+  }
+
+  .about-works_title {
+    margin: 20px 0 20px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .about-works_subtitle {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .about-works_description {
+    margin: 20px 0 20px;
+    font-size: 9px;
+    line-height: 12.6px;
+  }
+
+  .shop-in_wrapper {
+    flex-flow: column-reverse;
+    margin-top: 70px;
+    align-items: center;
+  }
+
+  .shop-in {
+    margin: 0;
+  }
+
+  .shop-in_image {
+    display: inline-block;
+  }
+
+  .sending-wrapper {
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+  }
+
+  .sending {
+    margin: 0;
+  }
+
+  .sending-image {
+    width: 282px;
+    display: inline-block;
+  }
+}
+

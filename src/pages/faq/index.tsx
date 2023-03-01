@@ -4,7 +4,7 @@ import type { NextPageWithLayout } from '../_app';
 
 const Faq: NextPageWithLayout = () => {
   return <>
-    <img className="faq-background" src="../../assets/icons/lines.svg" alt="lines" />
+    <img className="faq-background" src="/icons/lines.svg" alt="lines" />
     <section className="main">
       <div className="faq-wrapper">
         <h1 className="faq-title">FAQs</h1>
@@ -72,7 +72,7 @@ const Faq: NextPageWithLayout = () => {
           </div>
         </div>
       </div>
-      <img className="faq-image" src="../../assets/images/question-img.svg" alt="question-img" />
+      <img className="faq-image" src="/images/question-img.svg" alt="question-img" />
     </section>
   </>
 }

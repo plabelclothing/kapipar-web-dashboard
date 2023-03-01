@@ -55,7 +55,7 @@
 .faq-accordion .icon {
   width: 20px;
   height: 20px;
-  background: url(../../assets/icons/button-plus.svg) no-repeat;
+  background: url(/icons/button-plus.svg) no-repeat;
   transition: all 0.5s ease-in;
 }
 

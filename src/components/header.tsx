@@ -7,7 +7,7 @@ export default function Header() {
 
 	return <header className={styles.header}>
 		<div className={styles['header-wrapper']}>
-			<a href=''>
+			<a href='/'>
 				<img className={styles['header-logo']} src='/icons/kapipar-logo.svg' alt='kapipar-logo' />
 			</a>
 			<div>

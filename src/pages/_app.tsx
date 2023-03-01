@@ -8,6 +8,8 @@ import '../pages/calculator/calculator.css';
 import '../pages/login/login.css';
 import '../pages/register/register.css'
 import '../pages/faq/faq.css'
+import './howItWorks/howItWorks.css'
+import './ourBusiness/ourBusiness.css'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
 	getLayout?: (page: ReactElement) => ReactNode
