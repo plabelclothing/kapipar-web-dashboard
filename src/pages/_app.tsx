@@ -6,6 +6,7 @@ import '../styles/global.css';
 import '../pages/contact/contact.css';
 import '../pages/calculator/calculator.css';
 import '../pages/login/login.css';
+import '../pages/register/register.css'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
 	getLayout?: (page: ReactElement) => ReactNode
