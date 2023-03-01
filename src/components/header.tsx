@@ -12,7 +12,7 @@ export default function Header() {
 			</a>
 			<div>
 				<div onClick={() => setClicked(!menuIconClk)} className={`${styles['menu-icon']} ${menuIconClk ? 'active' : ''}`}>
-					<span></span>
+					<span />
 				</div>
 				<div className={styles['menu-body_wrapper']}>
 					<nav className={styles['menu-body']}>
@@ -52,7 +52,7 @@ export default function Header() {
 								<a href='/profile' className={styles['hide-menu_link']}>Profile</a>
 								<a href='/order' className={styles['hide-menu_link']}>My Order</a>
 								<a href='tracker' className={styles['hide-menu_link']}>Track Your Package</a>
-								<a href='' className={styles['hide-menu_link']}>Log Out</a>
+								<a href='/' className={styles['hide-menu_link']}>Log Out</a>
 							</div>
 							<form action='/register' target='_blank'>
 								<button className={`${styles['get-btn']} ${styles['menu-btn']}`}>Sing Up</button>

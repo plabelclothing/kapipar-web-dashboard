@@ -20,18 +20,18 @@ export default function Footer() {
 			</div>
 			<div className={styles.pages}>
 				<h4 className={styles['pages-title']}>Pages</h4>
-				<a href='../index.html' className={styles['also-links']}>Home</a>
+				<a href='/' className={styles['also-links']}>Home</a>
 				<a href='/calculator' className={styles['also-links']}>Calculator</a>
-				<a href='../pages/Contact/Contact.html' className={styles['also-links']}>Contact</a>
-				<a href='../pages/Order/order.html' className={styles['also-links']}>Your Order</a>
-				<a href='../pages/Tracker/tracker.html' className={styles['also-links']}>Track Your Package</a>
+				<a href='/contact' className={styles['also-links']}>Contact</a>
+				<a href='/order' className={styles['also-links']}>Your Order</a>
+				<a href='tracker' className={styles['also-links']}>Track Your Package</a>
 			</div>
 			<div className={styles['about-us']}>
 				<h4 className={styles['about-us_title']}>About Us</h4>
-				<a href='../pages/About/HowItWork.html' className={styles['also-links']}>How It Works</a>
-				<a href='../pages/About/faq.html' className={styles['also-links']}>FAQ</a>
-				<a href='../pages/About/OurBusiness.html' className={styles['also-links']}>Our Business</a>
-				<a href='../pages/About/careers.html' className={styles['also-links']}>Career</a>
+				<a href='/howItWork' className={styles['also-links']}>How It Works</a>
+				<a href='/faq' className={styles['also-links']}>FAQ</a>
+				<a href='/ourBusiness' className={styles['also-links']}>Our Business</a>
+				<a href='/careers' className={styles['also-links']}>Career</a>
 			</div>
 		</div>
 		<hr className={styles.underline}></hr>
