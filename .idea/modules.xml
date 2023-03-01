@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../kapipar-front-basic/.idea/kapipar-front-basic.iml" filepath="$PROJECT_DIR$/../kapipar-front-basic/.idea/kapipar-front-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kapipar-web-dashboard.iml" filepath="$PROJECT_DIR$/.idea/kapipar-web-dashboard.iml" />
     </modules>
   </component>
