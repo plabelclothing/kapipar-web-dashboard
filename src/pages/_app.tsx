@@ -2,7 +2,10 @@ import type { ReactElement, ReactNode } from 'react';
 import type { NextPage } from 'next';
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
-import '@/styles/global.css';
+import '../styles/global.css';
+import '../pages/contact/contact.css';
+import '../pages/calculator/calculator.css';
+import '../pages/login/login.css';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
 	getLayout?: (page: ReactElement) => ReactNode

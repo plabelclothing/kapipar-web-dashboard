@@ -21,7 +21,7 @@ export default function Footer() {
 			<div className={styles.pages}>
 				<h4 className={styles['pages-title']}>Pages</h4>
 				<a href='../index.html' className={styles['also-links']}>Home</a>
-				<a href='../pages/Calculator/Calculator.html' className={styles['also-links']}>Calculator</a>
+				<a href='/calculator' className={styles['also-links']}>Calculator</a>
 				<a href='../pages/Contact/Contact.html' className={styles['also-links']}>Contact</a>
 				<a href='../pages/Order/order.html' className={styles['also-links']}>Your Order</a>
 				<a href='../pages/Tracker/tracker.html' className={styles['also-links']}>Track Your Package</a>
