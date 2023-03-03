@@ -11,6 +11,11 @@ import '../pages/faq/faq.css'
 import './howItWorks/howItWorks.css'
 import './ourBusiness/ourBusiness.css'
 import './careers/careers.css'
+import './detailService/detailService.css'
+import './tracker/tracker.css'
+import './profile/profile.css'
+import './order/order.css'
+import './detailOrder/detailOrder.css'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
 	getLayout?: (page: ReactElement) => ReactNode
