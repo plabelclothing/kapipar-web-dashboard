@@ -4,11 +4,11 @@ import type { NextPageWithLayout } from '../_app';
 
 const Calculator: NextPageWithLayout = () => {
   return <>
-    <img className="calculator-background" src="/icons/lines.svg" alt="lines"/>
-      <section className="main">
+    <img className="calculator-background_main" src="/icons/lines.svg" alt="lines"/>
+      <section className="main_calculator">
         <div className="title-wrapper">
-          <h1 className="calculator-title">Calculate your price</h1>
-          <p className="calculator-description">
+          <h1 className="calculator-title_main">Calculate your price</h1>
+          <p className="calculator-description_main">
             Where will we be sending the package?
           </p>
         </div>
@@ -69,7 +69,7 @@ const Calculator: NextPageWithLayout = () => {
                 </div>
               </div>
             </div>
-            <button className="get-btn calculator-btn">Check Your Price</button>
+            <button className="calculator-btn_main get-btn">Check Your Price</button>
           </div>
           <div className="price-card">
             <div className="price-wrapper">

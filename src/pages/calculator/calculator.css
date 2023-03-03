@@ -2,14 +2,14 @@
 
 /* calculator styles */
 
-.main {
+.main_calculator {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 227px 130px 79px;
 }
 
-.calculator-background {
+.calculator-background_main {
   position: absolute;
   top: 126px;
 }
@@ -20,11 +20,11 @@
   align-items: center;
 }
 
-.calculator-title {
+.calculator-title_main {
   margin: 0;
 }
 
-.calculator-description {
+.calculator-description_main {
   margin: 25px 0 50px;
 }
 
@@ -176,7 +176,7 @@
   color: #141414;
 }
 
-.calculator-btn {
+button.calculator-btn_main {
   width: 460px;
   margin-top: 15px;
 }
