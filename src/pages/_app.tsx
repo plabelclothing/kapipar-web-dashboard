@@ -16,6 +16,7 @@ import './tracker/tracker.css'
 import './profile/profile.css'
 import './order/order.css'
 import './detailOrder/detailOrder.css'
+import './userOrder/userOrder.css'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
 	getLayout?: (page: ReactElement) => ReactNode

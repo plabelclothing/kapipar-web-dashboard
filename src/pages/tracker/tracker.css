@@ -1,5 +1,5 @@
 @import url(../../styles/global.css);
-/* @import url(../profile/profile.css); */
+@import url(../../pages/profile/profile.css);
 
 .right-side_tracker {
   width: 100%;

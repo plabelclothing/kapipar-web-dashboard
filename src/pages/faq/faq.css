@@ -1,5 +1,5 @@
 @import url(../../styles/global.css);
-/* @import url(../About/HowItWork.css); */
+@import url(../../pages/howItWorks/howItWorks.css);
 
 .faq-background {
   position: absolute;
