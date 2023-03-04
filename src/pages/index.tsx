@@ -3,6 +3,7 @@ import RootLayout from '@/components/rootLayout';
 import Head from 'next/head';
 import type { NextPageWithLayout } from './_app';
 
+
 const Index: NextPageWithLayout = () => {
 	return <>
 		<Head>
@@ -19,7 +20,7 @@ const Index: NextPageWithLayout = () => {
 						Shipping 1KG your goods to Serbia only for 29.99 € Small letters
 						for only 16 €
 					</p>
-					<button className={`${'get-btn'} ${'delivery-button'}`}>Get address</button>
+					<button className='get-btn delivery-button'>Get address</button>
 				</div>
 				<img className='delivery-image' src='/images/delivery.svg' alt='delivery' />
 			</div>
@@ -33,7 +34,7 @@ const Index: NextPageWithLayout = () => {
 						amet felis vel ante vestibulum sollicitudin. Praesent efficitur
 						condimentum lacus, sagittis vehicula tortor dictum vel.
 					</p>
-					<button className={`${'get-btn'} ${'payment-btn'}`}>Get address</button>
+					<button className='get-btn payment-btn'>Get address</button>
 				</div>
 			</div>
 			<div className='join-us'>
@@ -133,7 +134,7 @@ const Index: NextPageWithLayout = () => {
 			<img src='/images/map.svg' alt='map' className='save-money_image' />
 			<div className='save-money_wrapper'>
 				<h1 className='save-money_title'>Buy what you like and save money on delivery</h1>
-				<button className={`${'get-btn'} ${'save-money_btn'}`}>Get address</button>
+				<button className='get-btn save-money_btn'>Get address</button>
 			</div>
 		</div>
 	</>;

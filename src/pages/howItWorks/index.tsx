@@ -5,7 +5,7 @@ import type { NextPageWithLayout } from '../_app';
 const HowItWork: NextPageWithLayout = () => {
   return <>
     <img className="main-background" src="/icons/lines.svg" alt="" />
-      <section className="main">
+      <section className="main_howitworks">
         <div className="how-works">
           <h1 className="how-works_title">How It Works</h1>
           <p className="how-works_description">

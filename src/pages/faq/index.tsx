@@ -5,7 +5,7 @@ import type { NextPageWithLayout } from '../_app';
 const Faq: NextPageWithLayout = () => {
   return <>
     <img className="faq-background" src="/icons/lines.svg" alt="lines" />
-    <section className="main">
+    <section className="main_faq">
       <div className="faq-wrapper">
         <h1 className="faq-title">FAQs</h1>
         <p className="faq-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.

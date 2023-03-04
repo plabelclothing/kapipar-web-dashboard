@@ -16,7 +16,7 @@
 
 /* main styles */
 
-.main {
+.main_faq {
   display: flex;
   margin: 171px 129px 149px 203px;
 }
@@ -97,7 +97,7 @@
     min-width: 400px;
   }
 
-  .main {
+  .main_faq {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
@@ -130,7 +130,7 @@
     transform: translate(0%,12%);
   }
 
-  .main {
+  .main_faq {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

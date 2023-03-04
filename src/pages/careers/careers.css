@@ -7,7 +7,7 @@
 
 /* careers styles */
 
-.main {
+.main_careers {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,7 +101,7 @@
     min-width: 820px;
   }
 
-  .main {
+  .main_careers {
     margin: 134px 30px 80px;
   }
 }
@@ -120,7 +120,7 @@
     transform: translate(0%,12%);
   }
 
-  .main {
+  .main_careers {
     position: relative;
     margin: 40px 20px 20px;
     z-index: 5;

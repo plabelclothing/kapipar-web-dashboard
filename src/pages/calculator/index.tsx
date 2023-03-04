@@ -6,7 +6,7 @@ const Calculator: NextPageWithLayout = () => {
   return <>
     <img className="calculator-background_main" src="/icons/lines.svg" alt="lines"/>
       <section className="main_calculator">
-        <div className="title-wrapper">
+        <div className="calculator-title_wrapper">
           <h1 className="calculator-title_main">Calculate your price</h1>
           <p className="calculator-description_main">
             Where will we be sending the package?

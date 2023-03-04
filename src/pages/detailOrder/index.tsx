@@ -10,7 +10,7 @@ const DetailOrder: NextPageWithLayout = () => {
           <img className="profile-link_icon" src="/icons/profile-icon.svg" alt="profile-icon" />
           Profile
         </a>
-        <a className="profile-link" href="/order">
+        <a className="profile-link" href="/order" >
           <img className="profile-link_icon order-icon" src="/icons/order-icon.svg" alt="order-icon" />
           My Orders
         </a>

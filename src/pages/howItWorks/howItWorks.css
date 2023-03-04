@@ -32,7 +32,7 @@
 
 /* main styles */
 
-.main {
+.main_howitworks {
   position: relative;
   margin: 122px 230px 150px;
   z-index: 5;
@@ -93,7 +93,7 @@
 /* mobile view */
 
 @media screen and (max-width: 1279px) {
-  .main {
+  .main_howitworks {
     margin: 60px 30px 80px;
   }
 
@@ -144,7 +144,7 @@
     transform: translate(0%,12%);
   }
 
-  .main {
+  .main_howitworks {
     margin: 20px 20px 70px;
     z-index: 2;
   }
