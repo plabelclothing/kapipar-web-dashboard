@@ -1,8 +1,9 @@
-import type { ReactElement } from 'react';
+import { ReactElement, useState } from 'react';
 import RootLayout from '@/components/rootLayout';
 import type { NextPageWithLayout } from '../_app';
 
 const DetailOrder: NextPageWithLayout = () => {
+  const [moduleActive, setModuleActive] = useState(false);
   return <>
     <div className="main_tracker_profile">
       <aside className="left-side_profile">
@@ -46,16 +47,16 @@ const DetailOrder: NextPageWithLayout = () => {
           <div className="detail-photo_wrapper">
             <h3 className="photo-title">Photos</h3>
             <div className="photo-wrapper">
-              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" />
-              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" />
-              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" />
-              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" />
+              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" onClick={() => setModuleActive(!moduleActive)}/>
+              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" onClick={() => setModuleActive(!moduleActive)}/>
+              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" onClick={() => setModuleActive(!moduleActive)}/>
+              <img className="photo-image" src="/images/unknown-image.svg" alt="unknown-image" onClick={() => setModuleActive(!moduleActive)}/>
             </div>
-            <div id="modal" className="modal">
-              <div className="popup-area"></div>
-              <div className="modal-body">
-                <span id="modal-close" className="modal-close">&times;</span>
-                <img id="modal-content" className="modal-content" />
+            <div id="modal" className="modal" style={moduleActive ? {display: 'block'} : {display: 'none'}} >
+              <div className="popup-area" onClick={() => setModuleActive(!moduleActive)}></div>
+              <div className="modal-body" >
+                <span id="modal-close" className="modal-close" onClick={() => setModuleActive(!moduleActive)}>&times;</span>
+                <img id="modal-content" className="modal-content" src='/images/unknown-image.svg'/>
               </div>
             </div>
           </div>

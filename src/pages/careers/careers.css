@@ -17,6 +17,7 @@
 .careers-background {
   position: absolute;
   top: 72px;
+  z-index: -1;
 }
 
 .careers-title {

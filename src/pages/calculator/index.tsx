@@ -1,8 +1,9 @@
-import type { ReactElement } from 'react';
+import { ReactElement, useState } from 'react';
 import RootLayout from '@/components/rootLayout';
 import type { NextPageWithLayout } from '../_app';
 
 const Calculator: NextPageWithLayout = () => {
+  const [shippingSizeActive, setShippingSizeActive] = useState(false);
   return <>
     <img className="calculator-background_main" src="/icons/lines.svg" alt="lines"/>
       <section className="main_calculator">
@@ -49,12 +50,12 @@ const Calculator: NextPageWithLayout = () => {
             <div className="package-insure_accardion">
               <div className="shipping-size_wrapper">
                 <div className="shipping-wrapper shipping-btn">
-                  <span className="plus-btn">+</span>
+                  <span className="plus-btn" onClick={ () => setShippingSizeActive(!shippingSizeActive) }>+</span>
                   <p className="shipping-description">
                     I want to enter shipping sizes
                   </p>
                 </div>
-                <div className="panel">
+                <div className= {shippingSizeActive ? 'panel show' : 'panel'}>
                   <div className="size-table_wrapper">
                     <p className="size-table_title">L</p>
                     <input className="size-table_input" type="text" value="10" />
