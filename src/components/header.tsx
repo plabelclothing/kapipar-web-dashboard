@@ -11,7 +11,7 @@ export default function Header() {
 				<img className='header-logo' src='/icons/kapipar-logo.svg' alt='kapipar-logo' />
 			</a>
 			<div>
-				<div onClick={() => setClicked(!menuIconClk)} className={`$'menu-icon' ${menuIconClk ? 'active' : ''}`}>
+				<div onClick={() => setClicked(!menuIconClk)} className={ menuIconClk ? 'menu-icon active' : 'menu-icon'}>
 					<span />
 				</div>
 				<div className='menu-body_wrapper'>
@@ -55,7 +55,7 @@ export default function Header() {
 								<a href='/' className='hide-menu_link'>Log Out</a>
 							</div>
 							<form action='/register' target='_blank'>
-								<button className='get-btn menu-btn'>Sing Up</button>
+								<button className='get-btn menu-btn'>Sign Up</button>
 							</form>
 							<li>
 								<span className='menu-link menu-arrow_icon clickable-touch'>Eng

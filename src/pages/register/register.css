@@ -1,7 +1,9 @@
 @import url(../../styles/global.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-.wrapper {
+.wrapper_register-main {
   width: 1429px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo-image {
@@ -21,6 +23,7 @@
 .register-background {
   position: absolute;
   top: 2px;
+  z-index: -1;
 }
 
 .register-title {
@@ -76,7 +79,7 @@
   color: #8F8E8E;
 }
 
-.register-btn {
+button.register-btn {
   width: 555px;
 }
 
@@ -102,13 +105,13 @@
 /* media */
 
 @media screen and (max-width: 1279px) {
-  .wrapper {
+  .wrapper_register-main {
     width: auto;
   }
 }
 
 @media screen and (max-width: 819px) {
-  .wrapper {
+  .wrapper_register-main {
     width: auto;
   }
 
@@ -135,7 +138,6 @@
 
   .contact-information_data {
     position: relative;
-    z-index: 5;
   }
 
   .data-input {

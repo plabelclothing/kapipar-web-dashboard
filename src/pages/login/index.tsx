@@ -4,8 +4,9 @@ import type { NextPageWithLayout } from '../_app';
 
 const Login: NextPageWithLayout = () => {
   return <>
+    <div className="wrapper_login-main">
     <div className="logo-image">
-      <a href="../../index.html"><img className="logo" src="/icons/kapipar-logo.svg" alt="Kapipar" /></a>
+      <a href="/"><img className="logo" src="/icons/kapipar-logo.svg" alt="Kapipar" /></a>
     </div>
     <div className="login-wrapper">
       <div className="greeting">
@@ -26,7 +27,7 @@ const Login: NextPageWithLayout = () => {
           <div className="recovery-memorization">
             <form className="remember-wrapper" action="">
               <input type="checkbox" />
-              <label className="remember-description" htmlFor="">Remember me</label>
+              <label className="remember-description" htmlFor=''>Remember me</label>
             </form>
             <a className="forgot" href="">Forgot Password</a>
           </div>
@@ -35,14 +36,15 @@ const Login: NextPageWithLayout = () => {
         <p className="login-footer_description">Don’t have an account? <a href="../Register/Register.html" className="description-biggest">Sign Up</a></p>
       </div>
     </div>
+  </div>
   </>
 }
 
 Login.getLayout = function getLayout(page: ReactElement) {
 	return (
-		<RootLayout>
+		<>
 			{page}
-		</RootLayout>
+		</>
 	);
 };
 

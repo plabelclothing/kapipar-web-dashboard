@@ -4,7 +4,8 @@ import type { NextPageWithLayout } from '../_app';
 
 const Register: NextPageWithLayout = () => {
   return <>
-    <img className="register-background" src="/icons/lines.svg" alt="line"/>
+    <div className="wrapper_register-main">
+      <img className="register-background" src="/icons/lines.svg" alt="line" />
       <div className="logo-image">
         <a href="/"><img className="logo" src="/icons/kapipar-logo.svg" alt="" /></a>
       </div>
@@ -26,18 +27,19 @@ const Register: NextPageWithLayout = () => {
           <button className="get-btn register-btn">Create Account</button>
           <p className="register-description">
             Already have an account ?
-            <a href="/login" className="description-biggest">Login</a>
+            <a href="../Login/Login.html" className="description-biggest"> Login</a>
           </p>
         </div>
       </div>
+    </div>
   </>
 }
 
 Register.getLayout = function getLayout(page: ReactElement) {
 	return (
-		<RootLayout>
+		<>
 			{page}
-		</RootLayout>
+		</>
 	);
 };
 
