@@ -8,7 +8,7 @@ export function FaqAccordion() {
         <h5>Lorem Ipsum is Simple Dummy Text</h5>
         <div className="icon"></div>
       </div>
-      <div className={faqStyleActive ? 'panel active' : 'panel'} style={faqStyleActive ? {'maxHeight': 53} : {}}>
+      <div className={faqStyleActive ? 'panel active' : 'panel'}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nam sit amet felis vel ante vestibulum sollicitudin.

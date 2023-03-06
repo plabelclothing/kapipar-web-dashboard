@@ -5,7 +5,7 @@ import type { NextPageWithLayout } from '../_app';
 const Calculator: NextPageWithLayout = () => {
   const [shippingSizeActive, setShippingSizeActive] = useState(false);
   return <>
-    <img className="calculator-background_main" src="/icons/lines.svg" alt="lines"/>
+    <img className="calculator-background" src="/icons/lines.svg" alt="lines"/>
       <section className="main_calculator">
         <div className="calculator-title_wrapper">
           <h1 className="calculator-title_main">Calculate your price</h1>

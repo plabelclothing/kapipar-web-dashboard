@@ -2,8 +2,8 @@ import styles from '@/styles/RootLayout.module.css';
 import { useState } from 'react';
 
 export default function Header() {
-	const [menuIconClk, setClicked] = useState(false);
 	//mnBodyWrClk, headerLgClk, menuSubLnkCll,
+	const [navbarActive, setNavbarActive] = useState(false);
 
 	return <header className={styles.header}>
 		<div className='header-wrapper'>
@@ -11,10 +11,10 @@ export default function Header() {
 				<img className='header-logo' src='/icons/kapipar-logo.svg' alt='kapipar-logo' />
 			</a>
 			<div>
-				<div onClick={() => setClicked(!menuIconClk)} className={ menuIconClk ? 'menu-icon active' : 'menu-icon'}>
+				<div onClick={() => setNavbarActive(!navbarActive)} className={ navbarActive ? 'menu-icon active' : 'menu-icon'}>
 					<span />
 				</div>
-				<div className='menu-body_wrapper'>
+				<div className={ navbarActive ? 'menu-body_wrapper active' : 'menu-body_wrapper'}>
 					<nav className='menu-body'>
 						<ul className='menu-list'>
 							<li><a href='/' className='menu-link'>Home</a></li>

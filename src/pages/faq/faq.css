@@ -80,6 +80,7 @@
   display: block;
   opacity: 1;
   max-height: 200px;
+  max-height: 53px;
 }
 
 
@@ -162,5 +163,9 @@
 
   .faq-accordion h5 {
     font-size: 13px;
+  }
+
+  .panel.active {
+    max-height: 112px;
   }
 }
