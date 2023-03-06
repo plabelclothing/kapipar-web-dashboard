@@ -34,12 +34,9 @@ const Profile: NextPageWithLayout = () => {
             <div className="photo-circle">
               <img className="user-photo" src="/icons/profile-icon.svg" alt="" />
             </div>
-            <p className="profile-name">Sean Aditia</p>
+            <p className="profile-name">ilkerturker@gmail.com</p>
           </div>
-          <div className="profile-email">
-            <img className="mail-icon" src="/icons/mail-icon.svg" alt="email-icon" />
-            <p className="email-title"><span className="highlight">Email</span>: ilkerturker@gmail.com</p>
-          </div>
+
         </div>
         <div className="profile-password_wrapper">
           <div className="profile-password">

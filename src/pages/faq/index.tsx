@@ -1,7 +1,7 @@
 import { ReactElement, useState } from 'react';
 import RootLayout from '@/components/rootLayout';
 import type { NextPageWithLayout } from '../_app';
-import { FaqAccordion } from './FaqAccordion';
+import { FaqAccordion } from '../../components/FaqAccordion';
 
 const Faq: NextPageWithLayout = () => {
   const [faqStyleActive, setFaqStyleActive] = useState(false);

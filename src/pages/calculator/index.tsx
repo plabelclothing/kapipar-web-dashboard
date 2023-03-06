@@ -32,7 +32,7 @@ const Calculator: NextPageWithLayout = () => {
             <div className="block-2_wrapper">
               <div className="owner-postal_wrapper">
                 <h4 className="owner-title">Postal Code</h4>
-                <input className="owner-input_small" type="text" placeholder="11122" readOnly />
+                <input className="owner-input_small" type="text" placeholder="11122" />
               </div>
               <div className="owner-package_wrapper">
                 <h4 className="owner-title">Package Weight</h4>
