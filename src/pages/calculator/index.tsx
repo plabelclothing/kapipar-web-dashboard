@@ -5,9 +5,9 @@ import type { NextPageWithLayout } from '../_app';
 const Calculator: NextPageWithLayout = () => {
   const [shippingSizeActive, setShippingSizeActive] = useState(false);
   return <>
-    <img className="calculator-background" src="/icons/lines.svg" alt="lines"/>
+    <img className="calculator-background" src="/icons/lines.svg" alt="lines" />
       <section className="main_calculator">
-        <div className="calculator-title_wrapper">
+        <div className= "title-wrapper_calculator">
           <h1 className="calculator-title_main">Calculate your price</h1>
           <p className="calculator-description_main">
             Where will we be sending the package?
@@ -36,11 +36,11 @@ const Calculator: NextPageWithLayout = () => {
               </div>
               <div className="owner-package_wrapper">
                 <h4 className="owner-title">Package Weight</h4>
-                <input className="owner-input_small owner-input_mobile" type="text" placeholder="100"/>
+                <input className="owner-input_small owner-input_mobile" type="text" placeholder="100" />
               </div>
             </div>
             <h4 className="package-title">Package Value</h4>
-            <input className="package-input input-icon" type="text" placeholder="100"/>
+            <input className="package-input input-icon" type="text" placeholder="100" />
             <div className="package-insure_wrapper">
               <input type="checkbox" id="scales" name="scales" />
               <p className="package-insure_description">
@@ -70,7 +70,7 @@ const Calculator: NextPageWithLayout = () => {
                 </div>
               </div>
             </div>
-            <button className="calculator-btn_main get-btn">Check Your Price</button>
+            <button className="get-btn calculator-btn">Check Your Price</button>
           </div>
           <div className="price-card">
             <div className="price-wrapper">

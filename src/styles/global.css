@@ -638,9 +638,8 @@ body._lock {
 
   .header {
     position: relative;
-    margin: 16px 16px 16px 21px;
-    padding: 0;
-    z-index: 5;
+    padding: 16px 16px 16px 21px;
+    z-index: 10;
   }
 
   .header-logo {

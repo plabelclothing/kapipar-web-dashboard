@@ -133,7 +133,7 @@
     padding: 12px 0px 12px 10px;
   }
 
-  .tracker-btn {
+  button.tracker-btn {
     width: 48px;
     height: 20px;
     right: 10px;

@@ -237,7 +237,7 @@
   color: #474747;
 }
 
-.location-btn {
+button.location-btn {
   width: 200px;
   margin-left: 60px;
 }
@@ -336,7 +336,8 @@
   #lines-image {
     position: relative;
     background: url(/icons/lines.svg) no-repeat;
-    background-position: 0% 10%;
+    background-position: 0% 30%;
+    z-index: -1;
   }
 
   .main_tracker_profile {
@@ -404,6 +405,7 @@
   }
 
   .profile-name {
+    font-size: 16px;
     margin: 0;
     margin-left: 10px;
   }
@@ -475,7 +477,7 @@
     width: 282px;
   }
 
-  .location-btn {
+  button.location-btn {
     width: 180px;
     margin-left: 25px;
   }

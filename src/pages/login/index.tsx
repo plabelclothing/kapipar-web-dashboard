@@ -33,7 +33,7 @@ const Login: NextPageWithLayout = () => {
           </div>
           <button className="get-btn login-btn">Login</button>
         </div>
-        <p className="login-footer_description">Don’t have an account? <a href="../Register/Register.html" className="description-biggest">Sign Up</a></p>
+        <p className="login-footer_description">Don’t have an account? <a href="/register" className="description-biggest">Sign Up</a></p>
       </div>
     </div>
   </div>

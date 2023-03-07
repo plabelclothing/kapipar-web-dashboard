@@ -14,7 +14,7 @@
   line-height: 30.48px;
 }
 
-.consolidate-btn {
+button.consolidate-btn {
   width: 130px;
   height: 37px;
   font-weight: 500;
@@ -124,7 +124,7 @@
   margin-top: 20px;
 }
 
-.description-btn {
+button.description-btn {
   width: 130px;
   height: 37px;
   font-weight: 500;
@@ -366,7 +366,7 @@
     line-height: 12px;
   }
 
-  .description-btn {
+  button.description-btn {
     width: 97px;
     height: 27px;
     font-weight: 500;

@@ -1,11 +1,11 @@
-import styles from '@/styles/RootLayout.module.css';
+// import styles from '@/styles/RootLayout.module.css';
 import { useState } from 'react';
 
 export default function Header() {
 	//mnBodyWrClk, headerLgClk, menuSubLnkCll,
 	const [navbarActive, setNavbarActive] = useState(false);
 
-	return <header className={styles.header}>
+	return <header className='header'>
 		<div className='header-wrapper'>
 			<a href='/'>
 				<img className='header-logo' src='/icons/kapipar-logo.svg' alt='kapipar-logo' />

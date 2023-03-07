@@ -183,8 +183,9 @@ button.login-btn {
     width: 300px;
   }
 
-  .login-btn {
+  button.login-btn {
     width: 344px;
+    margin-bottom: 0;
   }
 
   .login-footer_description {

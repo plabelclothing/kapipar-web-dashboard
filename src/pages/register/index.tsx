@@ -24,10 +24,10 @@ const Register: NextPageWithLayout = () => {
             <input className="rules-input" id="rules" type="checkbox" />
             <p className="rules-description">Agree with the rules</p>
           </form>
-          <button className="get-btn register-btn">Create Account</button>
+          <button className="register-btn get-btn">Create Account</button>
           <p className="register-description">
             Already have an account ?
-            <a href="../Login/Login.html" className="description-biggest"> Login</a>
+            <a href="/login" className="description-biggest"> Login</a>
           </p>
         </div>
       </div>

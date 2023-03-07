@@ -176,7 +176,7 @@
   color: #141414;
 }
 
-button.calculator-btn_main {
+button.calculator-btn {
   width: 460px;
   margin-top: 15px;
 }
@@ -255,14 +255,14 @@ button.calculator-btn_main {
     z-index: 4;
   }
 
-  .calculator-title {
+  .calculator-title_main {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
   }
 
-  .calculator-description {
+  .calculator-description_main {
     margin: 20px 0 40px;
     font-weight: 500;
     font-size: 9px;
@@ -319,7 +319,7 @@ button.calculator-btn_main {
     margin-left: 6px;
   }
 
-  .calculator-btn {
+button.calculator-btn {
     width: 336px;
     margin: 0 auto;
     margin-top: 14px;

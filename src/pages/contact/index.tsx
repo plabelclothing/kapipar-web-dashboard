@@ -31,7 +31,7 @@ const Contact: NextPageWithLayout = () => {
         <p className="contact-input_title">Message*</p>
         <input className="contact-input message-input" type="text" />
         <div className="captcha-wrapper">
-          <div className="g-recaptcha" data-sitekey="6Lf1MkcUAAAAAFFY9zmereeM0-HHoJP5_25wiLLz"></div>
+          <div className="g-recaptcha" data-sitekey="6Lf1MkcUAAAAAFFY9zmereeM0-HHoJP5_25wiLLz" />
           <button className="get-btn">Submit</button>
         </div>
       </div>
