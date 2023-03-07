@@ -239,7 +239,7 @@ button.submit-change {
 
 button.location-btn {
   width: 200px;
-  margin-left: 60px;
+  margin: auto;
 }
 
 .user-input_title {
@@ -337,7 +337,7 @@ button.location-btn {
     position: relative;
     background: url(/icons/lines.svg) no-repeat;
     background-position: 0% 30%;
-    z-index: -1;
+    z-index: -10;
   }
 
   div.main_tracker_profile {
@@ -479,7 +479,7 @@ button.location-btn {
 
   button.location-btn {
     width: 180px;
-    margin-left: 25px;
+    margin: 10px auto;
   }
 
   .user-address_wrapper {
