@@ -5,8 +5,8 @@ import type { NextPageWithLayout } from '../_app';
 const DetailOrder: NextPageWithLayout = () => {
   const [moduleActive, setModuleActive] = useState(false);
   return <>
-    <div className="main_tracker_profile">
-      <aside className="left-side_profile">
+    <div className="main_detailOrder">
+      <aside className="left-side_detailOrder">
         <a className="profile-link" href="/profile">
           <img className="profile-link_icon" src="/icons/profile-icon.svg" alt="profile-icon" />
           Profile

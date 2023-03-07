@@ -36,10 +36,10 @@ export default function Header() {
 										<span className='burger-arrow' />
 									</span>
 								<ul className='menu-sub_list'>
-									<li><a href='/#package-consolidation' className='menu-sub_link'>Package Consolidation</a>
+									<li><a href='/#package-consolidation' className='menu-sub_link' onClick={() => setNavbarActive(!navbarActive)}>Package Consolidation</a>
 									</li>
-									<li><a href='/#slimming-parcels' className='menu-sub_link'>Slimming Parcels</a></li>
-									<li><a href='/#taking-pictures' className='menu-sub_link'>Taking Picture</a></li>
+									<li><a href='/#slimming-parcels' className='menu-sub_link' onClick={() => setNavbarActive(!navbarActive)}>Slimming Parcels</a></li>
+									<li><a href='/#taking-pictures' className='menu-sub_link' onClick={() => setNavbarActive(!navbarActive)}>Taking Picture</a></li>
 								</ul>
 							</li>
 							<li><a href='/calculator' className='menu-sub_link'>Calculator</a>

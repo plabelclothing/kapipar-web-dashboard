@@ -36,14 +36,14 @@
 
 /* main styles */
 
-.main_tracker_profile {
+div.main_tracker_profile {
   display: flex;
   margin: 122px 129px 150px 130px;
   flex-direction: row;
   align-items: flex-start;
 }
 
-.left-side_profile {
+aside.left-side_profile {
   width: 239px;
   height: 262px;
   padding: 20px;
@@ -196,7 +196,7 @@
   display: block;
 }
 
-.submit-change {
+button.submit-change {
   width: 200px;
   height: 24px;
 }
@@ -323,7 +323,7 @@ button.location-btn {
 }
 
 @media screen and (max-width: 1279px) {
-  .main_tracker_profile {
+  div.main_tracker_profile {
     margin: 134px 30px 80px;
   }
 }
@@ -340,20 +340,20 @@ button.location-btn {
     z-index: -1;
   }
 
-  .main_tracker_profile {
+  div.main_tracker_profile {
     display: flex;
     flex-direction: column;
     margin: 20px 20px 70px;
     position: relative;
   }
 
-  .left-side_profile {
+  aside.left-side_profile {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 0;
     padding: 0;
     border: none;
   }
@@ -528,7 +528,7 @@ button.location-btn {
     margin-left: 20px;
   }
 
-  .submit-change {
+  button.submit-change {
     height: 22px;
     font-size: 12px;
   }

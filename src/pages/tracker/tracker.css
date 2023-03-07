@@ -55,7 +55,7 @@
   outline: none;
 }
 
-.tracker-btn {
+button.tracker-btn {
   position: absolute;
   width: 138px;
   height: 43px;

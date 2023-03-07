@@ -629,6 +629,10 @@ body._lock {
   box-shadow: 2px 1000px 1px #F2F2F2 inset
 }
 
+ul.menu-sub_list {
+  width: 50px;
+}
+
 /* responsive styles for mobile */
 
 @media (min-width: 320px) and (max-width: 819px) {

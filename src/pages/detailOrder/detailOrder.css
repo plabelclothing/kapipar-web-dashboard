@@ -1,6 +1,19 @@
 @import url(../../styles/global.css);
 @import url(../../pages/profile/profile.css);
 
+.main_detailOrder {
+  display: flex;
+  margin: 122px 129px 150px 130px;
+}
+
+.left-side_detailOrder {
+  width: 239px;
+  height: 262px;
+  padding: 20px;
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+}
+
 .right-side_detail {
   width: 100%;
   margin-left: 31px;
@@ -197,13 +210,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .main_tracker_profile {
+  .main_detailOrder {
     display: flex;
     flex-direction: column;
     margin: 60px 30px 80px;
   }
 
-  .left-side_profile {
+  .left-side_detailOrder {
     width: 100%;
     height: 100%;
     display: flex;
@@ -234,7 +247,7 @@
     background-position: 0% 15%;
   }
 
-  .main_tracker_profile {
+  .main_detailOrder {
     margin: 20px 20px 60px;
   }
 

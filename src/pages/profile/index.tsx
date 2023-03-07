@@ -1,8 +1,9 @@
-import type { ReactElement } from 'react';
+import { ReactElement, useState } from 'react';
 import RootLayout from '@/components/rootLayout';
 import type { NextPageWithLayout } from '../_app';
 
 const Profile: NextPageWithLayout = () => {
+  const [passwordShow, setPasswordShow] = useState(false);
   return <>
     <div className="main_tracker_profile">
       <aside className="left-side_profile">
@@ -44,14 +45,14 @@ const Profile: NextPageWithLayout = () => {
               <img className="profile-right_icon" src="/icons/lock-icon.svg" alt="lock-icon" />
               <p className="profile-wrapper_title">Password</p>
             </div>
-            <div className="edit-btn change-btn">Change</div>
+            <div className="edit-btn change-btn" onClick={() => setPasswordShow(!passwordShow)}>Change</div>
           </div>
-          <div className="panel-password">
+          <div className={passwordShow ? "panel-password panel-password_show" : "panel-password"}>
             <a href="#user-popup">
               <button className="get-btn submit-change">Change Password</button>
             </a>
           </div>
-          <p className="password-title">**********</p>
+          <p className={passwordShow ? "password-title password-title_hidden" : "password-title"}>**********</p>
         </div>
         <div className="user-address_wrapper">
           <div className="user-title_wrapper">
