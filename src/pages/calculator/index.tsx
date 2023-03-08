@@ -19,13 +19,13 @@ const Calculator: NextPageWithLayout = () => {
               <div className="owner-country_wrapper">
                 <h4 className="owner-title">Country</h4>
                 <select className="owner-input">
-                  <option value="">Serbia</option>
+                  <option placeholder="">Serbia</option>
                 </select>
               </div>
               <div className="owner-city_wrapper">
                 <h4 className="owner-title">City</h4>
                 <select className="owner-input">
-                  <option value="">Belgrade</option>
+                  <option placeholder="">Belgrade</option>
                 </select>
               </div>
             </div>
@@ -58,13 +58,13 @@ const Calculator: NextPageWithLayout = () => {
                 <div className= {shippingSizeActive ? 'panel show' : 'panel'}>
                   <div className="size-table_wrapper">
                     <p className="size-table_title">L</p>
-                    <input className="size-table_input" type="text" value="10" />
+                    <input className="size-table_input" type="text" placeholder="10" />
                     <p className="size-table_title">W</p>
-                    <input className="size-table_input" type="text" value="10" />
+                    <input className="size-table_input" type="text" placeholder="10" />
                     <p className="size-table_title">H</p>
-                    <input className="size-table_input" type="text" value="10" />
+                    <input className="size-table_input" type="text" placeholder="10" />
                     <select className="size-table_type">
-                      <option value="">CM</option>
+                      <option placeholder="">CM</option>
                     </select>
                   </div>
                 </div>
